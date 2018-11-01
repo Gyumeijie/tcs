@@ -1,9 +1,9 @@
-# tcs
+# terminal-cs
 show cheatsheets in terminal for lookup convenience.
 
 # Install
 ```bash
-$ npm install -g tcs
+$ npm install -g terminal-cs
 ```
 
 # Usage

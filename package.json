@@ -1,7 +1,7 @@
 {
-  "name": "tcs",
+  "name": "terminal-cs",
   "description": "show cheatsheets in terminal for lookup convenience.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": {
     "type": "git",
