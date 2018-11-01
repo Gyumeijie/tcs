@@ -1,0 +1,52 @@
+{
+  "name": "tcs",
+  "description": "show cheatsheets in terminal for lookup convenience.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Gyumeijie/tcs.git"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "author": "Gyumeijie <gyumeijie@gmail.com>",
+  "contributors": [
+    "Gyumeijie (https://github.com/Gyumeijie)"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "bin": {
+    "realpath": "realpath.js",
+    "tcs": "tcs.sh"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.1.0"
+  },
+  "dependencies": {
+    "ansi-escapes": "^3.0.0",
+    "chalk": "^2.0.0",
+    "figures": "^2.0.0",
+    "run-async": "^2.3.0",
+    "inquirer": "^6.2.0",
+    "fuzzy": "^0.1.3",
+    "lodash": "^4.17.4"
+  },
+  "bugs": {
+    "url": "https://github.com/Gyumeijie/tcs/issues"
+  },
+  "homepage": "https://github.com/Gyumeijie/tcs#readme",
+  "keywords": [
+    "terminal",
+    "cheatsheets",
+    "dispaly",
+    "show",
+    "loopup"
+  ]
+}
