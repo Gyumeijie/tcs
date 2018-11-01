@@ -13,7 +13,7 @@ $ tcs
 ![](./search.png)
 
 ### How to add your own cheatsheets
-In order to have `tcs` index your own cheatsheets, just copy them to ~/.cheatsheets.
+In order to have `tcs` index your own cheatsheets, just copy them to ~/.cheatsheets/entries.
 
 # LICENSE
 MIT
