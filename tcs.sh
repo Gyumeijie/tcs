@@ -1,6 +1,6 @@
 #! /bin/bash
 
-if [ ! -d ~/.cheatsheets ]; then mkdir ~/.cheatsheets; fi
+if [ ! -d ~/.cheatsheets ]; then mkdir -p ~/.cheatsheets/entries; fi
 
 function generateEntries () {
    echo $(find ~/.cheatsheets/entries -type f 2>/dev/null) 
