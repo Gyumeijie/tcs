@@ -46,3 +46,8 @@ inquirer
    .then((answer) => {
       console.error(mappings[answer.cheatsheet]);
    });
+
+process.on('SIGINT', () => {
+   console.log();
+   process.exit();
+});
