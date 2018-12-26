@@ -14,7 +14,7 @@ $ tcs
 
 ### How to add your own cheatsheets
 In order to have `tcs` index your own cheatsheets, just copy them to `~/.cheatsheets/entries`.
-> You can go to https://github.com/LeCoupa/awesome-cheatsheets for some awesome cheatsheets.
+> You can also go to https://github.com/LeCoupa/awesome-cheatsheets for some awesome cheatsheets.
 
 # LICENSE
 MIT
